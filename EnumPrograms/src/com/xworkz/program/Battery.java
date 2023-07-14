@@ -5,7 +5,7 @@ public class Battery {
 	String brand;
 	int price;
 	BatteryType type;  //enum
-    int  noOfBattery ;
+        int  noOfBattery ;
 	
 	
 	// constructor
