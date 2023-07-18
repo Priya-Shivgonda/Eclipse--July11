@@ -2,9 +2,9 @@ package com.xworkz.java;
 
 public class Hotel {
 	String hotelName="Gokul cafe";
-    int noOfEmployee;
-    String location="Btm layout";
-    String hotelType;
+        int noOfEmployee;
+        String location="Btm layout";
+        String hotelType;
     
     Owner ref=new Owner("Santosh",50,987654329);
     Owner ref1=new Owner("Rahul",60,989797979);
