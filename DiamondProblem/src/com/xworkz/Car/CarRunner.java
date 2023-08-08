@@ -8,30 +8,25 @@ public class CarRunner {
 		
 		Car car=new Car();
 		car.moving();
-		car.noOfCars();
+		car.testDrive();
 		car.speed();
-		car.remoteKey();
+		car.drive();
 		
 		BMWCar bc=new Car();
 		bc.speed();
 		
-		
+
 		HondaCityCar hcc=new Car();
 	    hcc.speed();
 	    hcc.moving();
 	    
 	    
-	    MahindraCar mc=new Car();
-		mc.moving();
+	    MarutiSuzukiCar mc=new Car();
 		mc.speed();
-		mc.remoteKey();
+		mc.testDrive();
 	    
 
-		MarutiSuzukiCar msc=new Car();
-		msc.moving();
-		msc.noOfCars();
-		msc.speed();
-		msc.remoteKey();
+		
 	}
 
 }

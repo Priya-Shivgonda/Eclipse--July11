@@ -10,7 +10,7 @@ public class LaptopRunner {
 		laptop.memory();
 		laptop.screenQuality();
 		laptop.storage();
-		laptop.battery();
+		
 		
 		
 		
@@ -22,15 +22,8 @@ public class LaptopRunner {
 		dl.screenQuality();
 		
 		HpLaptop hl=new  Laptop();
-		hl.memory();
-		hl.screenQuality();
+		hl.memory();	
 		hl.storage();
-		
-		LenovoLaptop  lenovolaptop=new  Laptop();
-		lenovolaptop.memory();
-		lenovolaptop.screenQuality();
-		lenovolaptop.storage();
-		lenovolaptop.battery();
 		
 		
 		

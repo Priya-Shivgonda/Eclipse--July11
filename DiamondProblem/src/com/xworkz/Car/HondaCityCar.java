@@ -1,6 +1,12 @@
 package com.xworkz.Car;
 
-public interface HondaCityCar {
+public interface HondaCityCar extends BMWCar  {
+	
+	@Override 
 	void speed();
-    void moving();
+   default void moving()
+   {
+	   
+	   System.out.println("car is moving ");
+   }
 }

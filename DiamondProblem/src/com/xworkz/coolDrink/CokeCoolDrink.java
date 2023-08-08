@@ -1,9 +1,15 @@
 package com.xworkz.coolDrink;
 
-public interface CokeCoolDrink{
-	void stamina();
+public interface CokeCoolDrink extends CoolDrink{
+	
+@Override
+	void cool(); 
 
-	void cool();
+	default void stamina()
+	{
+		System.out.println("invoking the stamina");
+	}
+}
 	
 
-}
+

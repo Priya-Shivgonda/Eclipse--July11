@@ -1,8 +1,12 @@
 package com.xworkz.Company;
 
-public interface TCSCompany {
-	void noOfEmployee();
-	void  workProcess();
+public interface TCSCompany extends HCLCompany {
+	@Override
 	 void vacancy();
-
+	 
+	 
+	 default void noOfEmployee()
+		{
+			System.out.println("hcl company vacancy");
+		}
 }

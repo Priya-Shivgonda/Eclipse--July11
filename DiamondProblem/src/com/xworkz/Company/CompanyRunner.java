@@ -9,8 +9,7 @@ public class CompanyRunner {
 		Company company=new Company();
 		company.vacancy();
 		company.noOfEmployee();
-		company.salary();
-		company.workProcess();
+		company.workprocess();
 		
 		
 		HCLCompany hclcompany=new Company();
@@ -19,21 +18,15 @@ public class CompanyRunner {
 		
 		InfosysCompany infosyscompany=new Company();
 		infosyscompany.vacancy();
-		infosyscompany.workProcess();
+		infosyscompany.workprocess();
 		
 		
 		TCSCompany tcompany=new Company();
 		tcompany.vacancy();
 		tcompany.noOfEmployee();
 		
-		tcompany.workProcess();
+
 		
-		
-		WiproCompany wcompany=new Company();
-		wcompany.vacancy();
-		wcompany.noOfEmployee();
-		wcompany.salary();
-		wcompany.workProcess();
 		
 		
 		

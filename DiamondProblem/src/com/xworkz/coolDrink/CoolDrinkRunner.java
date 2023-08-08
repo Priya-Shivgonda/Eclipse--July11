@@ -14,7 +14,7 @@ public class CoolDrinkRunner {
 		ccd.stamina();
 		ccd.cool();
 		
-		PepsiCoolDrink pcd=new BTMCoolDrink();
+		 PepsiCoolDrink pcd=new BTMCoolDrink();
 		 pcd.cool();
 		 pcd.energy();
 	     
