@@ -1,22 +1,27 @@
 package com.xworkz.abstraction.app.laptop;
 
-public class Priya  {
-	private PrintingMachine machine;
+public class Priya{
+	
+	private Laptop  laptop;
 
-	public Priya(PrintingMachine machine) {
-		this.machine = machine;
+	public Priya(Laptop  laptop) {
+		this.laptop=laptop;
+		System.out.println("laptop argument is priya");
 	}
 
-
-	public void getPrint() {
-		if(machine!=null) {
-			System.out.println("Machine is not null");
-			this.machine.print();
+	public void display() {
+		if(laptop !=null) {
+			System.out.println("laptop is not  null");
+			this.laptop.display();
 		}
 		else {
-			System.err.println("machine is null cannot print");
+			System.err.println("laptop is null, laptop not working");
 		}
 	}
+
+
 }
+	
+	
 
 
